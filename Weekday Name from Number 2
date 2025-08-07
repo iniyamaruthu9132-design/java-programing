@@ -1,0 +1,45 @@
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        Scaner sc=new canner (Syem.in);
+        int a=sc.nextInt();
+        if(a==1)
+        {
+            Sstem.out.println("Monday");
+            
+        }
+        else if(a==2)
+        {
+            System.out.println("Tuesday");
+            }
+        else if(a==3)
+        {
+        System.out.println("Wednesday");
+            }
+        else if (a==4)
+        {
+        Sytem.out.println("Thusday");
+            }
+        else if (a==5)
+        {
+        System.out.println("Friday");
+            }
+        else if (a==6)
+        {
+        System.out.println("Saturday");
+            }
+        else if(a==7)
+        {
+         System.out.println("sunday");
+            }
+        else 
+        {
+            System.out.println("Enter a valid Input");
+    }
+}
