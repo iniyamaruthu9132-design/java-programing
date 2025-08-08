@@ -1,0 +1,29 @@
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+       Scanner sc=new Scanner(System.in);
+        int n=sc.nextInt();
+        if(n>=100 && n<1000)
+        {
+            int fir=n/100;
+            int las=n%10;
+            if(fir==las)
+           {  
+            System.out.println("palindrome");
+           }
+           else
+           {
+            System.out.println("not palindrome");
+           }
+        }
+        else{
+            System.out.println("Invalid Input");
+        }
+    }
+}
